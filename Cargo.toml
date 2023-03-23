@@ -1,0 +1,14 @@
+[package]
+name = "bark-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bark-client = { path = "./bark-client"}
+clap = { version = "4.1.11", features = ["derive"] }
+confy = "0.5.1"
+serde = "1.0.158"
+serde_derive = "1.0.158"
+tokio = { version = "1", features = ["full"] }

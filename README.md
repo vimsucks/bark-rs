@@ -1,2 +1,2 @@
 # bark-rs
-https://github.com/Finb/Bark client in Rust
+https://github.com/Finb/Bark client written in Rust
